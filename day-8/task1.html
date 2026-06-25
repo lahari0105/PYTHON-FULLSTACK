@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Layout</title>
+
+    <style>
+        *{
+            margin:0;
+        }
+
+        header{
+            height:100px;
+            background:black;
+            color:white;
+        }
+
+        nav{
+            height:100px;
+            background:rgb(203, 41, 87);
+            color:white;
+        }
+
+        main{
+            height:600px;
+            display:flex;
+        }
+
+        .child{
+            width:70%;
+        }
+
+        section{
+            height:50%;
+            background:red;
+        }
+
+        article{
+            height:50%;
+            background:white;
+        }
+
+        aside{
+            width:30%;
+            background:lightblue;
+        }
+
+        footer{
+            height:100px;
+            background:yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <nav>
+        <h1>Navigation Bar</h1>
+    </nav>
+
+    <main>
+        <div class="child">
+            <section>
+                <h1>Section</h1>
+            </section>
+
+            <article>
+                <h1>Article</h1>
+            </article>
+        </div>
+
+        <aside>
+            <h1>Aside</h1>
+        </aside>
+    </main>
+
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+
+</body>
+</html>
